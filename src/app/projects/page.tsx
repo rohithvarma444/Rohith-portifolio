@@ -18,14 +18,54 @@ interface Project {
 
 const projects: Project[] = [
     {
-      id: 'project-1',
-      title: 'Modern E-commerce Platform',
-      description: 'A full-featured e-commerce platform with seamless checkout and real-time inventory.',
+      id: 'project-4',
+      title: 'StudyNotion – Modern EdTech Platform',
+      description: 'An educational platform for online course creation and learning.',
       image: '/project/projects.jpg',
-      longDescription: 'A comprehensive e-commerce solution featuring real-time inventory management, secure payment processing, and personalized recommendations powered by AI.',
-      techStack: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS', 'MongoDB'],
-      githubUrl: 'https://github.com/yourusername/ecommerce',
-      liveUrl: 'https://ecommerce.demo.com'
+      longDescription: 'StudyNotion is a feature-rich EdTech platform supporting educators in course management and students in interactive learning, progress tracking, and analytics. It uses JWT auth and secure backend APIs.',
+      techStack: ['React', 'Tailwind CSS', 'Node.js', 'Express', 'MongoDB', 'Redux Toolkit', 'JWT'],
+      githubUrl: 'https://github.com/rohithvarma444/StudyNotion--EdTech-Platform',
+      liveUrl: ''
+    },
+    {
+      id: 'project-9',
+      title: 'SecureShare – File Encryption & Sharing',
+      description: 'A secure file-sharing app using AES and RSA cryptographic protocols.',
+      image: '/project/projects.jpg',
+      longDescription: 'SecureShare enables encrypted file transfers using AES encryption and RSA for key exchange. It features secure user authentication, encrypted file storage, and a clean UI for messaging.',
+      techStack: ['Node.js', 'MongoDB', 'Crypto', 'JWT', 'Express'],
+      githubUrl: 'https://github.com/rohithvarma444/SecureShare',
+      liveUrl: ''
+    },
+    {
+      id: 'project-7',
+      title: 'Notes Application',
+      description: 'A secure notes app with Google OAuth, CSRF, and CSP protection.',
+      image: '/project/projects.jpg',
+      longDescription: 'A full-stack application to manage notes securely using MongoDB, Google OAuth, and security measures like CSRF protection and Content Security Policy headers. Deployed with GCP.',
+      techStack: ['Node.js', 'Express.js', 'MongoDB', 'Bootstrap', 'Google OAuth', 'GCP'],
+      githubUrl: 'https://github.com/rohithvarma444/Notes-Application',
+      liveUrl: ''
+    },
+    {
+      id: 'project-5',
+      title: 'Olabs Hackathon – Lazy Lizards',
+      description: 'Real-time collaborative learning tools with AI chatbot and ML visualizers.',
+      image: '/project/projects.jpg',
+      longDescription: 'This hackathon project features real-time collaboration tools (whiteboard, video call), AI chatbot with Gemini API, web and ML modules, and mobile support using Flutter. Built for students in low-resource settings.',
+      techStack: ['Flutter', 'Dart', 'ReactJS', 'Tailwind CSS', 'ExpressJS', 'Gemini API'],
+      githubUrl: 'https://github.com/Aadarshprajapati777/HackOlabs-dashboard',
+      liveUrl: ''
+    },
+    {
+      id: 'project-8',
+      title: 'Cohere RAG (Multilingual PDF Q&A)',
+      description: 'Uses Cohere multilingual embeddings for answering questions from PDFs.',
+      image: '/project/projects.jpg',
+      longDescription: 'An experimental RAG (Retrieval-Augmented Generation) application using Cohere embeddings for multilingual PDF question answering. Built in Python and integrated with language-aware vector search.',
+      techStack: ['Python', 'Cohere API', 'LangChain', 'Embeddings'],
+      githubUrl: 'https://github.com/rohithvarma444/Cohere-RAG',
+      liveUrl: ''
     },
     {
       id: 'project-2',
@@ -48,23 +88,13 @@ const projects: Project[] = [
       liveUrl: ''
     },
     {
-      id: 'project-4',
-      title: 'StudyNotion – Modern EdTech Platform',
-      description: 'An educational platform for online course creation and learning.',
+      id: 'project-10',
+      title: 'Customer Churn Prediction',
+      description: 'A data science project analyzing preprocessing impact on churn models.',
       image: '/project/projects.jpg',
-      longDescription: 'StudyNotion is a feature-rich EdTech platform supporting educators in course management and students in interactive learning, progress tracking, and analytics. It uses JWT auth and secure backend APIs.',
-      techStack: ['React', 'Tailwind CSS', 'Node.js', 'Express', 'MongoDB', 'Redux Toolkit', 'JWT'],
-      githubUrl: 'https://github.com/rohithvarma444/StudyNotion--EdTech-Platform',
-      liveUrl: ''
-    },
-    {
-      id: 'project-5',
-      title: 'Olabs Hackathon – Lazy Lizards',
-      description: 'Real-time collaborative learning tools with AI chatbot and ML visualizers.',
-      image: '/project/projects.jpg',
-      longDescription: 'This hackathon project features real-time collaboration tools (whiteboard, video call), AI chatbot with Gemini API, web and ML modules, and mobile support using Flutter. Built for students in low-resource settings.',
-      techStack: ['Flutter', 'Dart', 'ReactJS', 'Tailwind CSS', 'ExpressJS', 'Gemini API'],
-      githubUrl: 'https://github.com/Aadarshprajapati777/HackOlabs-dashboard',
+      longDescription: 'Explores how various preprocessing techniques affect machine learning model performance in customer churn prediction. Includes synthetic dataset generation and an interactive dashboard for results.',
+      techStack: ['Python', 'Pandas', 'Scikit-learn', 'Matplotlib', 'Dash'],
+      githubUrl: 'https://github.com/rohithvarma444/Customer-Churn-Prediction',
       liveUrl: ''
     },
     {
@@ -76,48 +106,8 @@ const projects: Project[] = [
       techStack: ['Python', 'Pandas', 'Scikit-learn', 'Matplotlib', 'Jupyter Notebook'],
       githubUrl: 'https://github.com/rohithvarma444/wine-quality-prediction',
       liveUrl: ''
-    },
-    {
-      id: 'project-7',
-      title: 'Notes Application',
-      description: 'A secure notes app with Google OAuth, CSRF, and CSP protection.',
-      image: '/project/projects.jpg',
-      longDescription: 'A full-stack application to manage notes securely using MongoDB, Google OAuth, and security measures like CSRF protection and Content Security Policy headers. Deployed with GCP.',
-      techStack: ['Node.js', 'Express.js', 'MongoDB', 'Bootstrap', 'Google OAuth', 'GCP'],
-      githubUrl: 'https://github.com/rohithvarma444/Notes-Application',
-      liveUrl: ''
-    },
-    {
-      id: 'project-8',
-      title: 'Cohere RAG (Multilingual PDF Q&A)',
-      description: 'Uses Cohere multilingual embeddings for answering questions from PDFs.',
-      image: '/project/projects.jpg',
-      longDescription: 'An experimental RAG (Retrieval-Augmented Generation) application using Cohere embeddings for multilingual PDF question answering. Built in Python and integrated with language-aware vector search.',
-      techStack: ['Python', 'Cohere API', 'LangChain', 'Embeddings'],
-      githubUrl: 'https://github.com/rohithvarma444/Cohere-RAG',
-      liveUrl: ''
-    },
-    {
-      id: 'project-9',
-      title: 'SecureShare – File Encryption & Sharing',
-      description: 'A secure file-sharing app using AES and RSA cryptographic protocols.',
-      image: '/project/projects.jpg',
-      longDescription: 'SecureShare enables encrypted file transfers using AES encryption and RSA for key exchange. It features secure user authentication, encrypted file storage, and a clean UI for messaging.',
-      techStack: ['Node.js', 'MongoDB', 'Crypto', 'JWT', 'Express'],
-      githubUrl: 'https://github.com/rohithvarma444/SecureShare',
-      liveUrl: ''
-    },
-    {
-      id: 'project-10',
-      title: 'Customer Churn Prediction',
-      description: 'A data science project analyzing preprocessing impact on churn models.',
-      image: '/project/projects.jpg',
-      longDescription: 'Explores how various preprocessing techniques affect machine learning model performance in customer churn prediction. Includes synthetic dataset generation and an interactive dashboard for results.',
-      techStack: ['Python', 'Pandas', 'Scikit-learn', 'Matplotlib', 'Dash'],
-      githubUrl: 'https://github.com/rohithvarma444/Customer-Churn-Prediction',
-      liveUrl: ''
     }
-  ];
+];
 
 export default function ProjectsPage() {
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);

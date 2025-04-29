@@ -38,7 +38,7 @@ export function Navbar() {
           <NavItem href="/" isActive={pathname === "/"}>
             Home
           </NavItem>
-          <NavItem href="/projects" isActive={pathname === "/projects"}>
+          <NavItem href="/#projects" isActive={pathname === "/projects"}>
             Projects
           </NavItem>
           <NavItem href="/blogs" isActive={pathname === "/blogs"}>

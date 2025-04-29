@@ -31,9 +31,11 @@ const projects = [
     githubLink: "https://github.com/Aadarshprajapati777/HackOlabs-dashboard",
     date: "Feb 2025",
     features: [
-      "Enabled collaborative science labs via WebSocket infra with <200ms latency for 100+ users and synchronized simulation state.",
-      "Built GenAI-driven quiz generator, shared whiteboard with canvas sync, and integrated Stream.io video chat for live instruction.",
-      "Addressed the gap in synchronous online lab education with real-time, interactive, and scalable simulation features."
+      "Live whiteboard, screen sharing, calling, AI chatbot for role-based training.",
+      "Custom quizzes using Gemini API 🤖.",
+      "Web Development & Machine Learning with live code editors and ML algorithm visualizer.",
+      "Built with Flutter for seamless cross-platform support (Android & iOS).",
+      "Aligned with the latest CBSE syllabus 📚."
     ],
     technologies: [
        "React", "Gemini", "MongoDB", "Stream"
@@ -79,7 +81,7 @@ export default function Projects() {
   };
 
   return (
-    <section className="min-h-screen w-full flex flex-col items-center justify-center px-4 py-16">
+    <section id="projects" className="min-h-screen w-full flex flex-col items-center justify-center px-4 py-16">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}

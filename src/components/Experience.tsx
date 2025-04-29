@@ -15,7 +15,7 @@ const experiences: ExperienceItem[] = [
       title: "CTF Challenge Author",
       company: "Traboda CyberLabs",
       location: "Amritapuri, India",
-      period: "March 2023 – May 2024",
+      period: "March 2024  – May 2024",
       achievements: [
         "Designed and deployed advanced network and web security challenges for national-level CTFs, impacting over 1000 participants.",
         "Built realistic boot2root machines simulating critical vulnerabilities, aiding in the training of penetration testers.",

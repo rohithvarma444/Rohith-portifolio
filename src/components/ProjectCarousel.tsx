@@ -201,7 +201,7 @@ export default function Projects() {
             </div>
           </div>
           
-          <div className="w-full md:w-1/2 relative overflow-hidden border-l border-white/10 h-[500px]">
+          <div className="w-full md:w-1/2 relative overflow-hidden border-l border-white/10 h-[500px] hidden md:block">
             {!showViewAll && (
               <>
                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent z-10"></div>

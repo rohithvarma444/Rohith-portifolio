@@ -11,31 +11,30 @@ interface ExperienceItem {
 }
 
 const experiences: ExperienceItem[] = [
-    {
-      title: "CTF Challenge Author",
-      company: "Traboda CyberLabs",
-      location: "Amritapuri, India",
-      period: "March 2024  – May 2024",
-      achievements: [
-        "Designed and deployed advanced network and web security challenges for national-level CTFs, impacting over 1000 participants.",
-        "Built realistic boot2root machines simulating critical vulnerabilities, aiding in the training of penetration testers.",
-        "Created a high-complexity challenge for NCIIPC Pentethon 2024, solved by only 3 of 100+ participating elite teams.",
-        "Simulated real-world cyberattack scenarios to evaluate AI-driven security systems, enhancing their threat detection capabilities."
-      ]
-    },
-    {
-      title: "Team Lead / CTF Player (r0h17h)",
-      company: "Team bi0s",
-      location: "Amritapuri, India",
-      period: "April 2023 – March 2025",
-      achievements: [
-        "Led a 20-member cybersecurity team in international CTFs and Hack The Box, with a focus on web and network security challenges.",
-        "Designed and authored original CTF problems, contributing to global events and improving team preparation strategy.",
-        "Mentored juniors in offensive security, with several mentees advancing to solve international-level challenges.",
-        "Conducted vulnerability analysis and exploitation of real-world web applications and network protocols, enhancing defensive capabilities."
-      ]
-    }
-  ];
+  {
+    title: "CTF Challenge Author",
+    company: "Traboda CyberLabs",
+    location: "Amritapuri, India",
+    period: "March 2024 – May 2024",
+    achievements: [
+      "Designed and deployed advanced network and web security challenges for national-level CTFs, engaging over 1000 participants.",
+      "Built realistic boot2root machines simulating critical vulnerabilities for hands-on security training.",
+      "Created a high-difficulty challenge for NCIIPC Pentethon 2024, solved by only 3 of 100+ elite teams."
+    ]
+  },
+  {
+    title: "Team Lead / CTF Player (r0h17h)",
+    company: "Team bi0s",
+    location: "Amritapuri, India",
+    period: "April 2023 – March 2025",
+    achievements: [
+      "Led a 20-member cybersecurity team in CTFs and Hack The Box, specializing in web and network security.",
+      "Co-founded Team Akuma on Hack The Box, ranked Top 10 in India for 3 consecutive seasons.",
+      "Authored CTF problems for global competitions, improving team strategy and internal training.",
+      "Mentored juniors in offensive security, with mentees progressing to solve international-level challenges."
+    ]
+  }
+];
 
 export default function Experience() {
   return (

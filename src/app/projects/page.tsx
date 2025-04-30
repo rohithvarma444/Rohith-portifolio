@@ -17,7 +17,30 @@ interface Project {
 }
 
 const projects: Project[] = [
-    {
+  {
+    id: 'project-7',
+    title: 'GitWhisper – AI-Powered GitHub & Meeting Analyzer',
+    description: 'AI-powered tool to analyze GitHub repos and meeting transcripts using RAG architecture.',
+    image: '/project/projects.jpg',
+    longDescription: 'GitWhisper is an intelligent platform built with RAG architecture that allows users to analyze GitHub repositories and meeting audio files. It features Gemini-powered Q&A, commit insights, meeting transcriptions, and secure Clerk-based authentication, all within a scalable, type-safe stack using Next.js, tRPC, and Prisma.',
+    techStack: [
+      'Next.js',
+      'React',
+      'TypeScript',
+      'Tailwind CSS',
+      'tRPC',
+      'Prisma',
+      'PostgreSQL',
+      'Google Gemini',
+      'AssemblyAI',
+      'Clerk',
+      'Cloudinary'
+    ],
+    githubUrl: 'https://github.com/rohithvarma444/GitWhisper',
+    liveUrl: ''
+  },
+  
+  {
       id: 'project-4',
       title: 'StudyNotion – Modern EdTech Platform',
       description: 'An educational platform for online course creation and learning.',

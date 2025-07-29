@@ -12,7 +12,7 @@ const projects = [
     title: "GitWhisper",
     description: "A GenAI-powered code analysis platform leveraging RAG architecture and semantic search for large GitHub repositories",
     image: "/featured/gitWhisper.png",
-    demoLink: "https://www.linkedin.com/posts/rohith-varma-datla-0736b2281_genai-rag-llm-activity-7320739019514855425-PxRu",
+    demoLink: "https://git-whisper.vercel.app/",
     githubLink: "https://github.com/rohithvarma444/GitWhisper",
     date: "Mar 2025",
     features: [

@@ -18,6 +18,99 @@ interface Project {
 
 const projects: Project[] = [
   {
+    id: 'project-lyra',
+    title: 'Lyra – AI-Powered Customer Care SaaS Platform',
+    description: 'Revolutionary live voice agent dubbing system with multilingual, real-time voice and text interactions.',
+    image: '/project/projects.jpg',
+    longDescription: 'Lyra is a breakthrough AI-powered customer care platform featuring live voice agent dubbing with real-time AI voice synthesis using Murf AI. It supports 15+ languages with accent recognition, cultural adaptation, and emotion-aware speech modulation. The platform includes WebSocket streaming for ultra-low latency audio conversations and seamless language switching capabilities.',
+    techStack: [
+      'React',
+      'TypeScript',
+      'Node.js',
+      'PostgreSQL',
+      'Murf AI',
+      'WebSocket',
+      'Text-to-Speech',
+      'Real-time Audio'
+    ],
+    githubUrl: 'https://github.com/rohithvarma444/Lyra',
+    liveUrl: ''
+  },
+  {
+    id: 'project-kubernetes-audio',
+    title: 'Kubernetes Audio Converter',
+    description: 'Microservices-based application for converting video files to MP3 audio format, deployed on Kubernetes.',
+    image: '/project/projects.jpg',
+    longDescription: 'A distributed system built with microservices architecture deployed on Kubernetes. Features include Gateway Service for API management, Auth Service for JWT authentication, and Converter Service for video-to-MP3 conversion using FFmpeg. The system uses RabbitMQ for message queuing, MongoDB GridFS for file storage, and MySQL for user data management.',
+    techStack: [
+      'Kubernetes',
+      'Docker',
+      'RabbitMQ',
+      'MongoDB',
+      'MySQL',
+      'FFmpeg',
+      'JWT',
+      'Microservices'
+    ],
+    githubUrl: 'https://github.com/rohithvarma444/Kubernetes-Audio-Converter',
+    liveUrl: ''
+  },
+  {
+    id: 'project-django-crm',
+    title: 'Django CRM – Customer Relationship Management System',
+    description: 'Modern CRM system built with Django for managing customer records and business relationships.',
+    image: '/project/projects.jpg',
+    longDescription: 'A comprehensive Customer Relationship Management system built with Django featuring secure user authentication, customer records management, and lead tracking. The application includes a responsive Bootstrap-based UI, real-time message system for user feedback, CSRF protection for secure form handling, and efficient business relationship management features.',
+    techStack: [
+      'Django',
+      'Python',
+      'Bootstrap',
+      'SQLite',
+      'CSRF Protection',
+      'Authentication',
+      'Responsive Design'
+    ],
+    githubUrl: 'https://github.com/rohithvarma444/Django-CRM',
+    liveUrl: ''
+  },
+  {
+    id: 'project-rapidserve',
+    title: 'RapidServe – Vercel-like Deployment Platform',
+    description: 'Instant GitHub repository deployment platform with real-time monitoring and AWS integration.',
+    image: '/project/projects.jpg',
+    longDescription: 'RapidServe is a Vercel-like deployment platform that enables instant GitHub repository deployment with real-time monitoring. Built with a microservices architecture featuring 4 core services: Frontend, Upload Service, Deploy Service, and Request Handler. Integrates AWS S3, SQS, and DynamoDB for scalable file storage and deployment orchestration.',
+    techStack: [
+      'React',
+      'TypeScript',
+      'Node.js',
+      'AWS S3',
+      'AWS SQS',
+      'DynamoDB',
+      'Express.js',
+      'Microservices'
+    ],
+    githubUrl: 'https://github.com/rohithvarma444/RapidServe',
+    liveUrl: ''
+  },
+  {
+    id: 'project-autoaccess',
+    title: 'AutoAccess – AI-Powered Web Accessibility Extension',
+    description: 'Chrome browser extension for web accessibility with AI-powered page summarization and image description.',
+    image: '/project/projects.jpg',
+    longDescription: 'AutoAccess is a Chrome browser extension that enhances web accessibility through AI-powered features. It provides page summarization using Google\'s Gemini AI, automatic alt text generation for images using Google Cloud Vision API, and specialized STEM alt text analysis for technical content. Supports multiple languages including English, Hindi, and Telugu with Text-to-Speech integration.',
+    techStack: [
+      'Chrome Extension',
+      'JavaScript',
+      'Google Cloud Vision',
+      'Gemini AI',
+      'Text-to-Speech',
+      'Cloud Functions',
+      'Accessibility'
+    ],
+    githubUrl: 'https://github.com/rohithvarma444/AutoAccess',
+    liveUrl: ''
+  },
+  {
     id: 'project-7',
     title: 'GitWhisper – AI-Powered GitHub & Meeting Analyzer',
     description: 'AI-powered tool to analyze GitHub repos and meeting transcripts using RAG architecture.',

@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import mydp from "../../public/mydp.jpeg";
 import { motion } from "framer-motion";
 
 export function About() {
@@ -62,7 +61,7 @@ export function About() {
           <div className="absolute -inset-0.5 bg-gradient-to-r from-white/10 to-transparent rounded-3xl blur"></div>
           <div className="relative h-full w-full overflow-hidden rounded-3xl border border-white/20 shadow-2xl">
             <Image
-              src={mydp}
+              src="/mydp.jpg"
               alt="Profile Picture"
               fill
               className="object-cover object-center hover:scale-105 transition-transform duration-500"

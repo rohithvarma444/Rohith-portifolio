@@ -22,6 +22,7 @@ const techStack = [
   
   // Programming Languages
   { name: 'Python', icon: '/icons/python.svg' },
+  { name: 'Go', icon: '/icons/go.svg' },
   { name: 'C++', icon: '/icons/cpp.svg' },
   
   // AI/ML
@@ -29,6 +30,7 @@ const techStack = [
   { name: 'Gemini', icon: '/icons/gemini.svg' },
 
   // DevOps & Security
+  { name: 'AWS', icon: '/icons/aws.svg' },
   { name: 'Docker', icon: '/icons/docker.svg' },
   { name: 'SQL', icon: '/icons/sql.svg' },
   { name: 'Kali Linux', icon: '/icons/kali.svg' },

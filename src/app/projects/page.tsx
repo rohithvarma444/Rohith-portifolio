@@ -33,7 +33,7 @@ const projects: Project[] = [
       'Text-to-Speech',
       'Real-time Audio'
     ],
-    githubUrl: 'https://github.com/rohithvarma444/Lyra',
+    githubUrl: 'https://github.com/rohithvarma444/Murf-ai',
     liveUrl: ''
   },
   {
@@ -52,7 +52,7 @@ const projects: Project[] = [
       'JWT',
       'Microservices'
     ],
-    githubUrl: 'https://github.com/rohithvarma444/Kubernetes-Audio-Converter',
+    githubUrl: 'https://github.com/rohithvarma444/k8s-Audio-Converter',
     liveUrl: ''
   },
   {
@@ -107,7 +107,7 @@ const projects: Project[] = [
       'Cloud Functions',
       'Accessibility'
     ],
-    githubUrl: 'https://github.com/rohithvarma444/AutoAccess',
+    githubUrl: 'https://github.com/rohithvarma444/Auto_Access',
     liveUrl: ''
   },
   {

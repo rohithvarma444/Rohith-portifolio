@@ -28,7 +28,7 @@ const projects = [
     title: "AutoAccess",
     description: "AI-powered Chrome browser extension for web accessibility with page summarization and intelligent image description services",
     image: "/featured/gcp.jpg",
-    githubLink: "https://github.com/rohithvarma444/AutoAccess",
+    githubLink: "https://github.com/rohithvarma444/Auto_Access",
     date: "Dec 2024",
     features: [
       "Built a Chrome extension with AI-powered page summarization using Google's Gemini AI and Text-to-Speech services.",
@@ -113,15 +113,15 @@ export default function Projects() {
     }
   };
 
-  // Auto-advance carousel
-  useEffect(() => {
-    const interval = setInterval(() => {
-      if (!isHovered) {
-        nextProject();
-      }
-    }, 5000);
-    return () => clearInterval(interval);
-  }, [currentProject, isHovered]);
+  // Auto-advance carousel - Disabled
+  // useEffect(() => {
+  //   const interval = setInterval(() => {
+  //     if (!isHovered) {
+  //       nextProject();
+  //     }
+  //   }, 5000);
+  //   return () => clearInterval(interval);
+  // }, [currentProject, isHovered]);
 
   return (
     <section id="projects" className="min-h-screen w-full flex flex-col items-center justify-center px-4 py-16">

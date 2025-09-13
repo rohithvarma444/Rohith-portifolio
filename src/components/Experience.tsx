@@ -8,9 +8,22 @@ interface ExperienceItem {
   location: string;
   period: string;
   achievements: string[];
+  current?: boolean;
 }
 
 const experiences: ExperienceItem[] = [
+  {
+    title: "Software Engineer Intern",
+    company: "KubeNine",
+    location: "Remote",
+    period: "August 2025 – Present",
+    current: true,
+    achievements: [
+      "Developed scalable backend APIs using FastAPI and Django, ensuring robust functionality for cloud applications.",
+      "Built dynamic frontend components with React and React Native, integrating them seamlessly with backend services.",
+      "Collaborated effectively within a remote cross-functional team to design, test, and deploy cloud-native features."
+    ]
+  },
   {
     title: "CTF Challenge Author",
     company: "Traboda CyberLabs",
@@ -85,7 +98,11 @@ export default function Experience() {
                       whileInView={{ scale: 1 }}
                       viewport={{ once: true }}
                       transition={{ duration: 0.5, delay: 0.2 }}
-                      className="absolute top-1/2 -translate-y-1/2 right-[-21px] w-3 h-3 bg-white/50 rounded-full border-4 border-black"
+                      className={`absolute top-1/2 -translate-y-1/2 right-[-21px] w-3 h-3 rounded-full border-4 border-black ${
+                        exp.current 
+                          ? 'bg-green-500 shadow-[0_0_10px_rgba(34,197,94,0.8)] animate-pulse' 
+                          : 'bg-white/50'
+                      }`}
                     />
                   </motion.div>
                 </div>

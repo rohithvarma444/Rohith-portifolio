@@ -40,13 +40,13 @@ export function About() {
             <p className="text-3xl md:text-4xl font-bold text-white mb-8">
               👋🏻 Hello, I'm <span className="text-indigo-400">Rohith Varma Datla</span>
             </p>
-            <p>
-              A <span className="font-bold">third-year Computer Science</span> student at <span className="text-indigo-400">Amrita Vishwa Vidyapeetham, Amritapuri</span>, specializing in <span className="font-bold">full-stack development</span> and <span className="font-bold">web security</span>. As a former member of <span className="text-indigo-400">Team bi0s</span>, I've enhanced my problem-solving abilities through participation in international <span className="font-bold">CTFs</span> and <span className="font-bold">hackathons</span>.
-            </p>
-            
-            <p>
-              I specialize in combining <span className="text-indigo-400">AI tools</span> with efficient coding workflows to deliver high-quality <span className="font-bold">MVPs</span> rapidly. My expertise spans from building <span className="font-bold">secure, scalable web applications</span> to integrating <span className="text-indigo-400">GenAI features</span>—focusing on delivering tangible product value quickly, making me an ideal fit for fast-paced startups seeking rapid development and iteration.
-            </p>
+              <p>
+                An upcoming <span className="font-bold">SDE intern at Autodesk</span> and <span className="font-bold">final-year Computer Science student</span> at <span className="text-indigo-400">Amrita Vishwa Vidyapeetham, Amritapuri</span>, specializing in <span className="font-bold">backend systems</span>, <span className="font-bold">cloud-native development</span>, and <span className="font-bold">web security</span>. Experience spans building <span className="font-bold">scalable deployment platforms</span>, <span className="font-bold">AI-powered developer tools</span>, and <span className="font-bold">accessibility-focused products</span> using <span className="text-indigo-400">AWS, GCP, Docker, and Kubernetes</span>.
+              </p>
+              
+              <p>
+                Focused on combining <span className="text-indigo-400">GenAI tooling</span> with robust engineering to ship <span className="font-bold">production-ready features</span>—from <span className="font-bold">retrieval-augmented systems</span> to <span className="font-bold">microservices platforms</span>—while maintaining reliability through <span className="font-bold">CI/CD and observability</span>. This blend of security mindset and cloud expertise makes an excellent fit for teams building <span className="font-bold">high-impact, developer-centric products</span>.
+              </p>
           </motion.div>
         </motion.div>
 

@@ -50,9 +50,6 @@ const techStack = [
   // Monitoring & Observability
   { name: 'Prometheus', icon: '/icons/prometheus.svg' },
   { name: 'Grafana', icon: '/icons/grafana.svg' },
-  
-  // Security
-  { name: 'Kali Linux', icon: '/icons/kali.svg' },
 ];
 
 export default function TechStack() {

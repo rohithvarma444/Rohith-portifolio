@@ -9,19 +9,26 @@ interface ExperienceItem {
   period: string;
   achievements: string[];
   current?: boolean;
+  upcoming?: boolean;
 }
 
 const experiences: ExperienceItem[] = [
   {
     title: "Software Engineer Intern",
+    company: "Autodesk",
+    location: "Bangalore, India",
+    period: "January 2026 – June 2026",
+    upcoming: true,
+    achievements: []
+  },
+  {
+    title: "Software Engineer Intern",
     company: "KubeNine",
     location: "Remote",
-    period: "August 2025 – Present",
-    current: true,
+    period: "August 2025 – November 2025",
     achievements: [
-      "Developed scalable backend APIs using FastAPI and Django, ensuring robust functionality for cloud applications.",
-      "Built dynamic frontend components with React and React Native, integrating them seamlessly with backend services.",
-      "Collaborated effectively within a remote cross-functional team to design, test, and deploy cloud-native features."
+      "Built and maintained end-to-end automated testing workflows using Playwright, GitHub Actions and Expo, ensuring high-quality mobile and web application delivery.",
+      "Containerised services with Docker and orchestrated deployments in Kubernetes, collaborating with remote cross-functional teams to architect and release scalable, cloud-native features with enterprise reliability."
     ]
   },
   {
@@ -101,6 +108,8 @@ export default function Experience() {
                       className={`absolute top-1/2 -translate-y-1/2 right-[-21px] w-3 h-3 rounded-full border-4 border-black ${
                         exp.current 
                           ? 'bg-green-500 shadow-[0_0_10px_rgba(34,197,94,0.8)] animate-pulse' 
+                          : exp.upcoming
+                          ? 'bg-blue-500 shadow-[0_0_10px_rgba(59,130,246,0.8)] animate-pulse'
                           : 'bg-white/50'
                       }`}
                     />
@@ -116,21 +125,23 @@ export default function Experience() {
                   <div className="text-indigo-400 mb-4">
                     {exp.company} – {exp.location}
                   </div>
-                  <ul className="space-y-4">
-                    {exp.achievements.map((achievement, i) => (
-                      <motion.li 
-                        key={i}
-                        initial={{ opacity: 0, x: -20 }}
-                        whileInView={{ opacity: 1, x: 0 }}
-                        viewport={{ once: true }}
-                        transition={{ duration: 0.3, delay: i * 0.1 }}
-                        className="flex items-start group"
-                      >
-                        <span className="text-indigo-400 mr-2 group-hover:scale-125 transition-transform">•</span>
-                        <span className="text-white/80 group-hover:text-white transition-colors">{achievement}</span>
-                      </motion.li>
-                    ))}
-                  </ul>
+                  {exp.achievements.length > 0 && (
+                    <ul className="space-y-4">
+                      {exp.achievements.map((achievement, i) => (
+                        <motion.li 
+                          key={i}
+                          initial={{ opacity: 0, x: -20 }}
+                          whileInView={{ opacity: 1, x: 0 }}
+                          viewport={{ once: true }}
+                          transition={{ duration: 0.3, delay: i * 0.1 }}
+                          className="flex items-start group"
+                        >
+                          <span className="text-indigo-400 mr-2 group-hover:scale-125 transition-transform">•</span>
+                          <span className="text-white/80 group-hover:text-white transition-colors">{achievement}</span>
+                        </motion.li>
+                      ))}
+                    </ul>
+                  )}
                 </motion.div>
               </motion.div>
             ))}

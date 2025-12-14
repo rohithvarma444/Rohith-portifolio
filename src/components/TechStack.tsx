@@ -3,36 +3,55 @@
 import Image from 'next/image';
 
 const techStack = [
-  // Frontend
+  // Fundamentals - Operating Systems & Basics
+  { name: 'Linux', icon: '/icons/linux.svg' },
   { name: 'HTML', icon: '/icons/html.svg' },
   { name: 'CSS', icon: '/icons/css.svg' },
+  { name: 'SQL', icon: '/icons/sql.svg' },
+  
+  // Programming Languages
   { name: 'JavaScript', icon: '/icons/javascript.svg' },
   { name: 'TypeScript', icon: '/icons/typescript.svg' },
+  { name: 'Python', icon: '/icons/python.svg' },
+  { name: 'C++', icon: '/icons/cpp.svg' },
+  { name: 'Go', icon: '/icons/go.svg' },
+  
+  // Frontend Development
   { name: 'React', icon: '/icons/react.svg' },
   { name: 'Next.js', icon: '/icons/nextjs.svg' },
   { name: 'Tailwind CSS', icon: '/icons/tailwind.svg' },
-  {name: 'tRPC', icon: '/icons/trpc.svg'},
   
-  // Backend & Databases
+  // Backend & APIs
   { name: 'Node.js', icon: '/icons/nodejs.svg' },
   { name: 'Express', icon: '/icons/express.svg' },
+  { name: 'FastAPI', icon: '/icons/fastapi.svg' },
+  { name: 'tRPC', icon: '/icons/trpc.svg' },
+  
+  // Databases & Authentication
   { name: 'MongoDB', icon: '/icons/mongodb.svg' },
   { name: 'PostgreSQL', icon: '/icons/postgresql.svg' },
   { name: 'Clerk', icon: '/icons/clerk.svg' },
   
-  // Programming Languages
-  { name: 'Python', icon: '/icons/python.svg' },
-  { name: 'Go', icon: '/icons/go.svg' },
-  { name: 'C++', icon: '/icons/cpp.svg' },
-  
   // AI/ML
   { name: 'Langchain', icon: '/icons/langchain.svg' },
   { name: 'Gemini', icon: '/icons/gemini.svg' },
-
-  // DevOps & Security
-  { name: 'AWS', icon: '/icons/aws.svg' },
+  
+  // DevOps & Containerization
   { name: 'Docker', icon: '/icons/docker.svg' },
-  { name: 'SQL', icon: '/icons/sql.svg' },
+  { name: 'Kubernetes', icon: '/icons/kubernetes.svg' },
+  
+  // Infrastructure & IaC
+  { name: 'AWS', icon: '/icons/aws.svg' },
+  { name: 'Terraform', icon: '/icons/terraform.svg' },
+  
+  // CI/CD & Automation
+  { name: 'Jenkins', icon: '/icons/jenkins.svg' },
+  
+  // Monitoring & Observability
+  { name: 'Prometheus', icon: '/icons/prometheus.svg' },
+  { name: 'Grafana', icon: '/icons/grafana.svg' },
+  
+  // Security
   { name: 'Kali Linux', icon: '/icons/kali.svg' },
 ];
 

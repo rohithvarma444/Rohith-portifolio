@@ -10,7 +10,7 @@ export function HeroSection() {
     <section className="min-h-screen flex flex-col items-center justify-center text-center px-4 py-16 relative -mt-20">
       {/* Main headline with animation */}
       <h1 className="text-5xl md:text-7xl font-bold text-white mb-8 max-w-4xl animate-fade-in-down">
-        Turning ideas into secure, intelligent web solutions
+        Building scalable systems from code to deployment
       </h1>
       
       {/* Introduction with image - animated */}
@@ -30,7 +30,7 @@ export function HeroSection() {
           <span className="absolute -left-6 -bottom-4 text-2xl select-none opacity-0 group-hover:opacity-100 transition-all duration-300 animate-wave origin-[70%_70%]">👋</span>
         </div>
         <p className="text-2xl md:text-3xl text-gray-300">
-          a Full-Stack Developer
+          Software Engineer
         </p>
       </div>
       

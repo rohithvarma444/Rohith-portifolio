@@ -17,9 +17,12 @@ const experiences: ExperienceItem[] = [
     title: "Software Engineer Intern",
     company: "Autodesk",
     location: "Bangalore, India",
-    period: "January 2026 – June 2026",
-    upcoming: true,
-    achievements: []
+    period: "January 2025 – Present",
+    current: true,
+    achievements: [
+      "Built an automated dependency patching pipeline for the core Kubernetes application using Harness, running on 40+ customer containers, with an LLM for advanced risk assessment of breaking changes and vulnerabilities and ArgoCD gating for pull requests.",
+      "Improved reliability of GitOps-based Kubernetes deployments by streamlining CI/CD workflows, reducing manual intervention and accelerating release cycles across production environments."
+    ]
   },
   {
     title: "Software Engineer Intern",
